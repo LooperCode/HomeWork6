@@ -1,15 +1,5 @@
 ﻿void InsertNum(double b1, double b2, double k1, double k2){
-/*if (b1 > b2){
-    double temp = b2;
-    b2 = b1;
-    b1 = temp;
-}
-else if (k1 > k2){
-    double temp = k2;
-    k2 = k1;
-    k1 = temp;
-}
-*/
+
     double x = (b2-b1) / (k1-k2);
     double y = (k1*(b2-b1))/(k1-k2)+b1;
     Console.Write($"[{x};{y}]");
